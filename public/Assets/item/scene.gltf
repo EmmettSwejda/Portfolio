@@ -1,0 +1,395 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter r174"
+  },
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        3
+      ]
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "translation": [
+        -2.3457865715026855,
+        3,
+        -11.054740905761719
+      ],
+      "scale": [
+        1,
+        1,
+        5
+      ],
+      "name": "Cube001",
+      "extras": {
+        "name": "Cube.001"
+      },
+      "mesh": 0
+    },
+    {
+      "rotation": [
+        -0.23458749055862427,
+        0.1888265609741211,
+        0.0465080663561821,
+        0.9524443745613098
+      ],
+      "translation": [
+        5.834179878234863,
+        11.840181350708008,
+        19.667715072631836
+      ],
+      "name": "Camera",
+      "extras": {
+        "name": "Camera"
+      },
+      "camera": 0
+    },
+    {
+      "rotation": [
+        -0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "translation": [
+        1.3575935363769531,
+        9.588739395141602,
+        13.317764282226562
+      ],
+      "name": "Point",
+      "extras": {
+        "name": "Point"
+      },
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      }
+    },
+    {
+      "name": "Stick.glb",
+      "children": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 672,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 672,
+      "byteLength": 672,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1344,
+      "byteLength": 448,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1792,
+      "byteLength": 192,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1984,
+      "byteLength": 208
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2192,
+      "byteLength": 624
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2816,
+      "byteLength": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2824,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2856,
+      "byteLength": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2864,
+      "byteLength": 24
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2888,
+      "uri": "data:application/octet-stream;base64,AACAvwAAgL8AAIA/AACAvwAAgL8AAIA/AACAvwAAgL8AAIA/AACAvwAAgD8AAIA/AACAvwAAgD8AAIA/AACAvwAAgD8AAIA/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgD8AAIC/AACAvwAAgD8AAIC/AACAvwAAgD8AAIC/AACAPwAAgL8AAIA/AACAPwAAgL8AAIA/AACAPwAAgL8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgL8AAIC/AACAPwAAgL8AAIC/AACAPwAAgL8AAIC/AACAPwAAgD8AAIC/AACAPwAAgD8AAIC/AACAPwAAgD8AAIC/6NE6QNG6gEA0M7O/6NE6QNG6gEA0M7O/6NE6QNG6gEA0M7O/6NE6QKJ1QcA0M7O/6NE6QKJ1QcA0M7O/6NE6QKJ1QcA0M7O/6NE6QNG6gEAAAIC/6NE6QNG6gEAAAIC/6NE6QNG6gEAAAIC/6NE6QKJ1QcAAAIC/6NE6QKJ1QcAAAIC/6NE6QKJ1QcAAAIC/6NE6wNG6gEA0M7O/6NE6wNG6gEA0M7O/6NE6wNG6gEA0M7O/6NE6wKJ1QcA0M7O/6NE6wKJ1QcA0M7O/6NE6wKJ1QcA0M7O/6NE6wNG6gEAAAIC/6NE6wNG6gEAAAIC/6NE6wNG6gEAAAIC/6NE6wNG6gEAAAIC/6NE6wKJ1QcAAAIC/6NE6wKJ1QcAAAIC/6NE6wKJ1QcAAAIC/6NE6QNG6gEAAAIC/6NE6wNG6gEAAAIC/6NE6wNG6gEAAAIC/6NE6wNG6gEAAAIC/6NE6QNG6gEA0M7O/6NE6wNG6gEA0M7O/6NE6wNG6gEA0M7O/AAAAAAAAAAAAAIA/AAAAAAAAgL8AAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAgD8AAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAgD8AAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAgD8AAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAgL8AAAAAAACAvwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAADAPgAAAAAAAAA+AACAPgAAwD4AAIA/AAAgPwAAAAAAAGA/AACAPgAAID8AAIA/AADAPgAAQD8AAAA+AAAAPwAAwD4AAEA/AAAgPwAAQD8AAGA/AAAAPwAAID8AAEA/AADAPgAAgD4AAMA+AACAPgAAwD4AAIA+AAAgPwAAgD4AACA/AACAPgAAID8AAIA+AADAPgAAAD8AAMA+AAAAPwAAwD4AAAA/AAAgPwAAAD8AACA/AAAAPwAAID8AAAA/AAAgPwAAAD8AACA/AAAAPwAAID8AAAA/AADAPgAAAD8AAMA+AAAAPwAAwD4AAAA/AAAgPwAAgD4AACA/AACAPgAAID8AAIA+AADAPgAAgD4AAMA+AACAPgAAwD4AAIA+AAAgPwAAQD8AACA/AABAPwAAID8AAEA/AADAPgAAQD8AAAA+AAAAPwAAwD4AAEA/AAAgPwAAAAAAACA/AAAAAAAAID8AAIA/AAAgPwAAgD8AAMA+AAAAAAAAAD4AAIA+AADAPgAAgD8AACA/AACAPgAAID8AAAAAAAAgPwAAgD8AAGA/AACAPgAAID8AAAA/AAAgPwAAQD8AAGA/AAAAPwIABQALAAIACwAIAAYACQAVAAYAFQASABQAFwARABQAEQAOAAwADwADAAwAAwAAAAcAEwANAAcADQABABYACgAEABYABAAQACsAHwAxACsAMQAyACEAHgAqACEAKgAuADAALQAmADAAJgApACgAHAAiACgAIgAvAB0AGgAgAB0AIAAjACcAJAAYACcAGAAbADUANwA0ADUANAAxACUALAAzACUAMwA2AB8AGQA1AB8ANQAxABkAJQA2ABkANgA1AAAAAABVVdU+q6rqPgAAAD+rqgo/VVUVPwAAID+rqio/VVU1PwAAQD+rqko/VVVVPwAAYD+rqmo/VVV1PwAAgD9VVYU/q6qKPwAAkD9VVZU/q6qaPwAAoD9VVaU/q6qqPwAAsD9VVbU/q6q6PwAAwD9VVcU/q6rKPwAA0D9VVdU/q6raPwAA4D9VVeU/q6rqPwAA8D9VVfU/q6r6PwAAAECrqgJAVVUFQAAACECrqgpAVVUNQAAAEECrqhJAVVUVQAAAGECrqhpAVVUdQAAAIEBeIRbAAABAQDjgMMFeIRbAAABAQDjgMMHHLiDAAABAQH3sK8G/dzvAAABAQKtSHsFhrWPAAABAQND0CcFnQIrAAABAQOpp4cCO0aTAAABAQFLqqMC0Yr/AAABAQOZdXMBrzNfAAABAQIDv07885+vAAABAQACbCr22i/nAAABAQMADpz9rkv7AAABAQPiED0Ax6/zAAABAQHn+OUDkL/jAAABAQJQ5YEAWuPDAAABAQLw3gUBU2+bAAABAQKhskEAw8drAAABAQCfYnUA8Uc3AAABAQM6WqUAFU77AAABAQDPFs0AeTq7AAABAQPF/vEAVmp3AAABAQJvjw0B8jozAAABAQMsMykDKBXfAAABAQBMYz0C6nVXAAABAQBAi00DpkzXAAABAQFVH1kCAlxfAAABAQHek2EAkr/i/AABAQBJW2kCYBsm/AABAQLp420CUk6G/AABAQAkp3EBYtIO/AABAQJGD3EBQjmG/AABAQOyk3ECIVFS/AABAQLCp3ECIVFS/Dww9QLCp3ECIVFS/g5g0QLCp3ECIVFS/wEEnQLCp3ECIVFS/LqQVQLCp3ECIVFS/NFwAQLCp3ECIVFS/cQzQP7Cp3ECIVFS/Q32aP7Cp3ECIVFS/XYdCP7Cp3ECIVFS/9GGWPrCp3ECIVFS/EFw6vrCp3ECIVFS//F4ov7Cp3ECIVFS/sNqPv7Cp3ECIVFS/RhTJv7Cp3ECIVFS/cKP+v7Cp3ECIVFS/tKcXwLCp3ECIVFS/tO8swLCp3ECIVFS/RI0+wLCp3ECIVFS/AORLwLCp3ECIVFS/kFdUwLCp3ECIVFS/gktXwLCp3EAAAAAAAAAgQAAAAAAAAAAAAAAAgAAAgD8AAAAAAAAAAAAAAIAAAIA/AAAAAAAAIEAAAIA/AACAPwAAoEAAAIA/AACAPwAAoEA="
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 56,
+      "max": [
+        2.9190616607666016,
+        4.0228047370910645,
+        1
+      ],
+      "min": [
+        -2.9190616607666016,
+        -3.0228047370910645,
+        -1.4000000953674316
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 56,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 56,
+      "max": [
+        0.875,
+        1
+      ],
+      "min": [
+        0.125,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 96,
+      "max": [
+        55
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 52,
+      "max": [
+        2.5
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 52,
+      "max": [
+        -0.8294148445129395,
+        3,
+        6.895713806152344
+      ],
+      "min": [
+        -7.955373287200928,
+        -3.363983631134033,
+        -11.054740905761719
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        2.5
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        2.5
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        1,
+        1,
+        5
+      ],
+      "min": [
+        1,
+        1,
+        5
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "name": "Colored"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 1.7541899441340782,
+        "yfov": 0.39959652046304894,
+        "zfar": 1000,
+        "znear": 0.10000000149011612
+      },
+      "name": "PerspectiveCamera"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "name": "Point",
+          "color": [
+            1,
+            0.9594780206680298,
+            0.38319066166877747
+          ],
+          "intensity": 13587.853266470565,
+          "type": "point"
+        }
+      ]
+    }
+  },
+  "animations": [
+    {
+      "name": "Cube.001Action.001",
+      "samplers": [
+        {
+          "input": 4,
+          "output": 5,
+          "interpolation": "LINEAR"
+        },
+        {
+          "input": 6,
+          "output": 7,
+          "interpolation": "STEP"
+        },
+        {
+          "input": 8,
+          "output": 9,
+          "interpolation": "STEP"
+        }
+      ],
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 0,
+            "path": "scale"
+          }
+        }
+      ]
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ]
+}
