@@ -14,7 +14,7 @@ document.body.appendChild(renderer.domElement);
 
 // Scene and Camera
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
+let camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
 camera.position.set(0, 20, 20);
 camera.lookAt(0, 2.5, -1);
 
@@ -41,6 +41,7 @@ loader.load('scene.gltf', (gltf) => {
     console.log('loading model');
     gltfScene = gltf.scene;
     mixer = new THREE.AnimationMixer(gltfScene);
+    camera = gltf.cameras[0]
 
     // Create and store each action; start them stopped.
     gltf.animations.forEach((clip) => {
