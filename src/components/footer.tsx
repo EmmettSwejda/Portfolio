@@ -7,7 +7,8 @@ export default function Footer({ item,  }) {
         textAlign: 'center',
         backgroundColor: '#9CB8D1',
         flexWrap: 'wrap', // helps on smaller screens
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        borderTop: '5px solid black'
     }
     const footerItemStyle = {
         display: 'flex',

@@ -20,6 +20,7 @@ export const metadata: Metadata = {
 
 // Components Import
 import Footer from "@/components/footer"
+import AboutMe from "@/components/aboutme"
 
 
 export default function RootLayout({
@@ -31,6 +32,7 @@ export default function RootLayout({
     <html lang="en">
     <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
+        <AboutMe />
       <Footer />
       </body>
     </html>

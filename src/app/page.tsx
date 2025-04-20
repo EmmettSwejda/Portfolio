@@ -2,53 +2,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-      <h1>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-        Emmett Swejda<br/>
-      </h1>
+      <p></p>
   );
 }
