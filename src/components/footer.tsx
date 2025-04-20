@@ -4,20 +4,21 @@ export default function Footer({ item,  }) {
         justifyContent: 'center', // optional: aligns the content to the center
         alignItems: 'flex-start', // keeps them aligned at the top
         gap: '20px', // space between items
-        padding: '20px',
         textAlign: 'center',
-        backgroundColor: '#716969',
-        flexWrap: 'wrap' // helps on smaller screens
+        backgroundColor: '#9CB8D1',
+        flexWrap: 'wrap', // helps on smaller screens
+        fontWeight: 'bold'
     }
     const footerItemStyle = {
         display: 'flex',
         flexFlow: 'column nowrap',
         borderRadius: '15px',
-        backgroundColor: '#2d2e2e',
+        backgroundColor: '#235789',
+        color: '#000000',
         gap: '10px',
         margin: "10px",
         padding: '20px',
-        boxShadow: "5px 5px #0f0f0f",
+        boxShadow: "5px 5px #000000",
         width: 'fit-content',
     }
     const footerItemHeaderStyle = {
@@ -25,15 +26,15 @@ export default function Footer({ item,  }) {
         padding: '5px',
         paddingRight: '20px',
         paddingLeft: '20px',
-        backgroundColor: '#0f0f0f',
+        backgroundColor: '#ff7f11',
+        color: '#000000'
     }
     const footerContactStyle = {
         textAlign: 'left'
     }
     const footerContactEmailStyle = {
-        color: '#fbfbfb',
+        color: '#000000',
         marginLeft: "5%",
-        fontWeight: 'bold'
     }
     const footerEducationList = {
         listStyleType: "circle",
@@ -47,21 +48,18 @@ export default function Footer({ item,  }) {
     return (
         <footer style={footerStyle}>
             <div style={footerItemStyle}>
-                <h2 style={footerItemHeaderStyle}>Site Map</h2>
-                <div>
-                    <a href="/about">About</a>
-                </div>
-                <div>
-                    <a href="/projects">projects</a>
-                </div>
-            </div>
-            <div style={footerItemStyle}>
                 <h2 style={footerItemHeaderStyle}>Emmett Swejda</h2>
                 <div>
                     <h3 style={footerEducationHeaderStyle}>Education:</h3>
                     <ul>
                         <li style={footerEducationList}>High School</li>
-                        <li style={footerEducationList} ><a href="https://saskpolytech.ca/programs-and-courses/programs/Computer-Systems-Technology.aspx">Computer Systems Technology</a></li>
+                        <li style={footerEducationList}>
+                            <div>
+                                <a href="https://saskpolytech.ca/programs-and-courses/programs/Computer-Systems-Technology.aspx" target="_blank" rel="noopener noreferrer">
+                                    Computer Systems Technology<svg style={{display: 'inline-block'}} xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" /></svg>
+                                </a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -72,12 +70,26 @@ export default function Footer({ item,  }) {
             <div style={footerItemStyle}>
                 <h2 style={footerItemHeaderStyle}>Social</h2>
                 <div>
-                    <a href="https://www.linkedin.com/in/EmmettSwejda/">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/EmmettSwejda/" target="_blank" rel="noopener noreferrer">
+                        Linkedin<svg style={{display: 'inline-block'}} xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" /></svg>
+                    </a>
                 </div>
                 <div>
-                    <a href="https://github.com/EmmettSwejda">Github</a>
+                    <a href="https://github.com/EmmettSwejda" target="_blank" rel="noopener noreferrer">
+                        Github<svg style={{display: 'inline-block'}} xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" /></svg>
+                    </a>
                 </div>
             </div>
+            <div style={footerItemStyle}>
+                <h2 style={footerItemHeaderStyle}>Site Map</h2>
+                <div>
+                    <a href="/about">About</a>
+                </div>
+                <div>
+                    <a href="/projects">projects</a>
+                </div>
+            </div>
+
         </footer>
     )
 }
