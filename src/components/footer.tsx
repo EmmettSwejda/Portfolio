@@ -1,3 +1,4 @@
+import styles from './footer.module.css'
 export default function Footer({ item,  }) {
     const footerStyle= {
         display: 'flex',
@@ -19,7 +20,6 @@ export default function Footer({ item,  }) {
         gap: '10px',
         margin: "10px",
         padding: '20px',
-        boxShadow: "5px 5px #000000",
         width: 'fit-content',
     }
     const footerItemHeaderStyle = {
@@ -28,10 +28,12 @@ export default function Footer({ item,  }) {
         paddingRight: '20px',
         paddingLeft: '20px',
         backgroundColor: '#ff7f11',
-        color: '#000000'
+        color: '#000000',
+        fontSize: "25px",
     }
     const footerContactStyle = {
-        textAlign: 'left'
+        textAlign: 'left',
+        fontSize: "30px"
     }
     const footerContactEmailStyle = {
         color: '#000000',
@@ -43,17 +45,17 @@ export default function Footer({ item,  }) {
         marginLeft: "10%"
     }
     const footerEducationHeaderStyle ={
-        textAlign: 'left'
+        textAlign: 'left',
+        fontSize: "30px",
     }
 
     return (
         <footer style={footerStyle}>
-            <div style={footerItemStyle}>
+            <div style={footerItemStyle} className={styles.growShadow}>
                 <h2 style={footerItemHeaderStyle}>Emmett Swejda</h2>
                 <div>
                     <h3 style={footerEducationHeaderStyle}>Education:</h3>
                     <ul>
-                        <li style={footerEducationList}>High School</li>
                         <li style={footerEducationList}>
                             <div>
                                 <a href="https://saskpolytech.ca/programs-and-courses/programs/Computer-Systems-Technology.aspx" target="_blank" rel="noopener noreferrer">
@@ -68,7 +70,7 @@ export default function Footer({ item,  }) {
                     <a style={footerContactEmailStyle} href="mailto:emmettswejda1@gmail.com">EmmettSwejda1@gmail.com</a>
                 </div>
             </div>
-            <div style={footerItemStyle}>
+            <div style={footerItemStyle} className={styles.growShadow}>
                 <h2 style={footerItemHeaderStyle}>Social</h2>
                 <div>
                     <a href="https://www.linkedin.com/in/EmmettSwejda/" target="_blank" rel="noopener noreferrer">
@@ -81,7 +83,7 @@ export default function Footer({ item,  }) {
                     </a>
                 </div>
             </div>
-            <div style={footerItemStyle}>
+            <div style={footerItemStyle} className={styles.growShadow}>
                 <h2 style={footerItemHeaderStyle}>Site Map</h2>
                 <div>
                     <a href="/about">About</a>
