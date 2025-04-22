@@ -93,7 +93,7 @@ const AboutMeCard: React.FC = () => {
                         challenged myself to learn the basics with only a few weeks before heading to the mountains to
                         fish some of the best rivers in canada.<br/>
                         I find it lots of fun to take random trips to explore my country. Last summer I drove down to
-                        the US border to explore the grasslands nation park a badlands section of saskatchewan. Below you can see the hike I went on during the
+                        the US border to explore the grasslands nation park, a badlands section of saskatchewan. Below you can see the hike I went on during the
                         trip.
 
                     </p>
