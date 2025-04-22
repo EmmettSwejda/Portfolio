@@ -59,7 +59,7 @@ const AboutMeCard: React.FC = () => {
                     <h2 style={headingStyle}>About Me</h2>
                     <p style={{padding:"10px"}}>
                         Hello! I'm Emmett Swejda, I am currently a second-year Computer Systems Technology student at Saskatchewan
-                        Polytechnic. I am well versed with in software development, systems administration, and
+                        Polytechnic. I am very well versed in software development, systems administration, and working in
                         agile development environments. my passion lies in technology and helping simplify other lives.
                         <br/>
                         I also have great real-world experience from roles in retail and
