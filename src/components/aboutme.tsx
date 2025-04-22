@@ -85,12 +85,22 @@ const AboutMeCard: React.FC = () => {
                 </div>
             </div>
             <div style={containerStyle}>
-                <img src="/IMG_0108.JPEG" alt="Emmett Swejda" style={imageStyle} className={styles.growShadow}/>
+                <img src="/IMG_0178.JPEG" alt="Emmett Swejda" style={imageStyle} className={styles.growShadow}/>
                 <div style={paragraphStyle} className={styles.growShadow}>
                     <h2 style={headingStyle}>Hobbies</h2>
-                    <p style={{padding:"10px"}}>
-                        I enjoy getting outside and exploring the outdoors, I recently have discovered fly fishing a found great fun in hiking small streams to catch beautiful fish!
+                    <p style={{padding: "10px"}}>
+                        Exploring outdoors is something I really enjoy! Last year I decided to take on fly fishing, I
+                        challenged myself to learn the basics with only a few weeks before heading to the mountains to
+                        fish some of the best rivers in canada.<br/>
+                        I find it lots of fun to take random trips to explore my country. Last summer I drove down to
+                        the US border to explore the grasslands nation park a badlands section of saskatchewan. Below you can see the hike I went on during the
+                        trip.
+
                     </p>
+                    <iframe style={{padding: "20px"}} className="alltrails"
+                            src="https://www.alltrails.com/widget/recording/afternoon-hike-at-bearpaw-sea-trail-243facb?u=m&sh=kd8hzl"
+                            width="100%" height="400"
+                            title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
                 </div>
             </div>
         </div>
