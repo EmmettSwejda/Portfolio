@@ -25,6 +25,7 @@ body {
     font-family: "Markazi Text", Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
 .markazi-text {
     font-family: "Markazi Text", serif;
     font-optical-sizing: auto;
@@ -39,3 +40,4 @@ body {
 .grow-shadow:hover {
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
+

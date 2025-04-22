@@ -1,6 +1,11 @@
+import React from 'react'
 import styles from './footer.module.css'
-export default function Footer({ item,  }) {
-    const footerStyle= {
+export default function Footer() {
+    const footerStyle: React.CSSProperties = {
+        margin: "0 auto",
+        borderBottomRightRadius: "5px",
+        borderBottomLeftRadius: "5px",
+        maxWidth: "900px",
         display: 'flex',
         justifyContent: 'center', // optional: aligns the content to the center
         alignItems: 'flex-start', // keeps them aligned at the top
@@ -11,7 +16,7 @@ export default function Footer({ item,  }) {
         fontWeight: 'bold',
         borderTop: '5px solid black'
     }
-    const footerItemStyle = {
+    const footerItemStyle: React.CSSProperties = {
         display: 'flex',
         flexFlow: 'column nowrap',
         borderRadius: '15px',
@@ -22,7 +27,7 @@ export default function Footer({ item,  }) {
         padding: '20px',
         width: 'fit-content',
     }
-    const footerItemHeaderStyle = {
+    const footerItemHeaderStyle: React.CSSProperties  = {
         borderRadius: '5px',
         padding: '5px',
         paddingRight: '20px',
@@ -31,20 +36,20 @@ export default function Footer({ item,  }) {
         color: '#000000',
         fontSize: "25px",
     }
-    const footerContactStyle = {
+    const footerContactStyle: React.CSSProperties  = {
         textAlign: 'left',
         fontSize: "30px"
     }
-    const footerContactEmailStyle = {
+    const footerContactEmailStyle: React.CSSProperties  = {
         color: '#000000',
         marginLeft: "5%",
     }
-    const footerEducationList = {
+    const footerEducationList: React.CSSProperties  = {
         listStyleType: "circle",
         textAlign: 'left',
         marginLeft: "10%"
     }
-    const footerEducationHeaderStyle ={
+    const footerEducationHeaderStyle: React.CSSProperties  ={
         textAlign: 'left',
         fontSize: "30px",
     }
@@ -81,15 +86,6 @@ export default function Footer({ item,  }) {
                     <a href="https://github.com/EmmettSwejda" target="_blank" rel="noopener noreferrer">
                         Github<svg style={{display: 'inline-block'}} xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" /></svg>
                     </a>
-                </div>
-            </div>
-            <div style={footerItemStyle} className={styles.growShadow}>
-                <h2 style={footerItemHeaderStyle}>Site Map</h2>
-                <div>
-                    <a href="/about">About</a>
-                </div>
-                <div>
-                    <a href="/projects">projects</a>
                 </div>
             </div>
 
